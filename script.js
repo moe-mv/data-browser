@@ -24,7 +24,7 @@
         $.pivotUtilities.plotly_renderers
       );
       console.log("Fetching dataset...")
-      Papa.parse("https://data-browser.moe-mv.repl.co/datasets/" + val, {
+      Papa.parse("https://moe-mv.github.io/data-browser/datasets/" + val, {
         download: true,
         skipEmptyLines: true,
         complete: function(parsed) {
