@@ -7,7 +7,7 @@
             plugins: ["restore_on_backspace", "clear_button"],
             maxItems: 1,
             valueField: "name",
-            labelField: "name",
+            labelField: "title",
             searchField: "name",
             options: data
           });
